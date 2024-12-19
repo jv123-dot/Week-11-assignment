@@ -1,0 +1,27 @@
+
+
+#header { 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+
+#grid {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+
+}
+
+#grid > div {
+    background-color: rgb(9, 75, 150);
+    border-radius: 5px;
+
+    display: grid;
+    place-items:center;
+    font-size: 30px;
+    color: white;
+    
+}
